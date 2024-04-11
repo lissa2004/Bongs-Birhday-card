@@ -8,7 +8,6 @@
 body {
   background: #E5E5E5;
   background-image: url("bg.jpg");
-
 }
 
 #card-front {
@@ -17,7 +16,7 @@ body {
 }
 
 #card, #card-front, #card-inside {
-  height: 690px;
+  height: 580px;
 }
 
 .wrap {
@@ -69,7 +68,7 @@ body {
 }
 
 #card-inside {
-  font-size: 1.3em;
+  font-size: 1em;
   line-height: 1.4;
 font-family: 'Lobster';
   color: #331717;
@@ -85,17 +84,16 @@ p:first-child {
 }
 
 p.signed {
-  margin-top: 1em;
+  margin-top: 1.5em;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-  font-weight: bold;
-  font-size: 0.75em;
+font-family: 'Indie Flower', cursive;
+  font-size: 1.5em;
 }
 
 #card-front {
   background-color: #ee9ca7;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#FF5555), to(#FF7777));
-  background-image: linear-gradient(top, #f39a9a 0%, #f39797 100%);
+  background-image: linear-gradient(top, #FF5555 0%, #FF7777 100%);
   -webkit-transform-origin: left;
           transform-origin: left;
   -webkit-transition: -webkit-transform 1s linear;
@@ -379,9 +377,8 @@ font-family: 'Lobster', cursive;
 }
 
 .polaroid {
-  width: 200x;
-  margin-bottom: 100px;
-  height: 420px;
+  width: 240x;
+  height: 400px;
   position: absolute;
   float: left;
   background: #1e1c18;
@@ -413,11 +410,6 @@ font-family: 'Lobster', cursive;
           animation-iteration-count: 1;
 }
 
-.wishesFont{
-  font-family: 'Indie Flower', cursive;
-  font-weight: 800;
-}
-
 @-webkit-keyframes fade-in {
   from {
     opacity: 0;
@@ -435,4 +427,3 @@ font-family: 'Lobster', cursive;
     opacity: 1;
   }
 }
-
