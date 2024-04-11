@@ -9,10 +9,10 @@
 
         width: 900px;
         height: 100%;
-        margin: auto;
+        margin: 900px;
     }
     #card.open-fully{
-        margin-top: 1900px;
+        margin-top: 500px;
         width: 900px;
         height: 500px;
     }
